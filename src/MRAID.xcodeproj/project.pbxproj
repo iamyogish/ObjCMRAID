@@ -23,26 +23,13 @@
 /* Begin PBXBuildFile section */
 		27296B9317F280CE004C268F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27296B9217F280CE004C268F /* Foundation.framework */; };
 		2738BDEB19815D9100A968BF /* MRAIDSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDD719815D9100A968BF /* MRAIDSettings.m */; };
-		2738BDEC19815D9100A968BF /* MRAIDSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDD719815D9100A968BF /* MRAIDSettings.m */; };
 		2738BDED19815D9100A968BF /* SKMRAIDOrientationProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDDA19815D9100A968BF /* SKMRAIDOrientationProperties.m */; };
-		2738BDEE19815D9100A968BF /* SKMRAIDOrientationProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDDA19815D9100A968BF /* SKMRAIDOrientationProperties.m */; };
 		2738BDEF19815D9100A968BF /* SKMRAIDResizeProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDDC19815D9100A968BF /* SKMRAIDResizeProperties.m */; };
-		2738BDF019815D9100A968BF /* SKMRAIDResizeProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDDC19815D9100A968BF /* SKMRAIDResizeProperties.m */; };
 		2738BDF119815D9100A968BF /* SKMRAIDInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDDE19815D9100A968BF /* SKMRAIDInterstitial.m */; };
-		2738BDF219815D9100A968BF /* SKMRAIDInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDDE19815D9100A968BF /* SKMRAIDInterstitial.m */; };
 		2738BDF319815D9100A968BF /* SKMRAIDModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDE019815D9100A968BF /* SKMRAIDModalViewController.m */; };
-		2738BDF419815D9100A968BF /* SKMRAIDModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDE019815D9100A968BF /* SKMRAIDModalViewController.m */; };
 		2738BDF519815D9100A968BF /* SKMRAIDParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDE219815D9100A968BF /* SKMRAIDParser.m */; };
-		2738BDF619815D9100A968BF /* SKMRAIDParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDE219815D9100A968BF /* SKMRAIDParser.m */; };
 		2738BDF719815D9100A968BF /* SKMRAIDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDE519815D9100A968BF /* SKMRAIDUtil.m */; };
-		2738BDF819815D9100A968BF /* SKMRAIDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDE519815D9100A968BF /* SKMRAIDUtil.m */; };
 		2738BDF919815D9100A968BF /* SKMRAIDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDE719815D9100A968BF /* SKMRAIDView.m */; };
-		2738BDFA19815D9100A968BF /* SKMRAIDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDE719815D9100A968BF /* SKMRAIDView.m */; };
-		27B9578D18343A400076286F /* libSourceKitCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B9578C18343A400076286F /* libSourceKitCommon.a */; };
-		27BBC1651833E99900074066 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27296B9217F280CE004C268F /* Foundation.framework */; };
-		27BBC1661833E99900074066 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EBFE7417F2837900FCB7DD /* UIKit.framework */; };
-		27BBC16E1833E99900074066 /* MRAID_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BBC16D1833E99900074066 /* MRAID_Tests.m */; };
-		27BBC17B1833EA0500074066 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BBC17A1833EA0500074066 /* XCTest.framework */; };
 		27EBFE7517F2837900FCB7DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EBFE7417F2837900FCB7DD /* UIKit.framework */; };
 		9C3555831F18EE1800484D1E /* UIView+SKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3555821F18EE1800484D1E /* UIView+SKExtension.m */; };
 		9C7D4FBB1D9276F0003FE6E2 /* UIButton+SKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7D4FBA1D9276F0003FE6E2 /* UIButton+SKExtension.m */; };
@@ -50,13 +37,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		27BBC1701833E99900074066 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 27296B8717F280CE004C268F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 27296B8E17F280CE004C268F;
-			remoteInfo = MRAID;
-		};
 		E245B1BF17F35AE10056CCB5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 27296B8717F280CE004C268F /* Project object */;
@@ -102,10 +82,6 @@
 		2738BDE619815D9100A968BF /* SKMRAIDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMRAIDView.h; sourceTree = "<group>"; };
 		2738BDE719815D9100A968BF /* SKMRAIDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMRAIDView.m; sourceTree = "<group>"; };
 		27B9578C18343A400076286F /* libSourceKitCommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSourceKitCommon.a; path = "../../../../../../../Library/Developer/Xcode/DerivedData/SourceKit_MRAID_Demo-chkqdkneesfnscddcsglkymwqnat/Build/Products/Debug-iphoneos/libSourceKitCommon.a"; sourceTree = "<group>"; };
-		27BBC1621833E99900074066 /* MRAID Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MRAID Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27BBC1691833E99900074066 /* MRAID Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MRAID Tests-Info.plist"; sourceTree = "<group>"; };
-		27BBC16D1833E99900074066 /* MRAID_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRAID_Tests.m; sourceTree = "<group>"; };
-		27BBC16F1833E99900074066 /* MRAID Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MRAID Tests-Prefix.pch"; sourceTree = "<group>"; };
 		27BBC17A1833EA0500074066 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		27EBFE7417F2837900FCB7DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9C3555811F18EE1800484D1E /* UIView+SKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SKExtension.h"; sourceTree = "<group>"; };
@@ -123,17 +99,6 @@
 			files = (
 				27EBFE7517F2837900FCB7DD /* UIKit.framework in Frameworks */,
 				27296B9317F280CE004C268F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27BBC15F1833E99900074066 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27B9578D18343A400076286F /* libSourceKitCommon.a in Frameworks */,
-				27BBC17B1833EA0500074066 /* XCTest.framework in Frameworks */,
-				27BBC1661833E99900074066 /* UIKit.framework in Frameworks */,
-				27BBC1651833E99900074066 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +139,6 @@
 			isa = PBXGroup;
 			children = (
 				27218E6D194BBDB5002CB908 /* MRAID */,
-				27BBC1671833E99900074066 /* MRAID Tests */,
 				27296B9117F280CE004C268F /* Frameworks */,
 				27296B9017F280CE004C268F /* Products */,
 			);
@@ -184,7 +148,6 @@
 			isa = PBXGroup;
 			children = (
 				27296B8F17F280CE004C268F /* libMRAID.a */,
-				27BBC1621833E99900074066 /* MRAID Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,24 +174,6 @@
 			path = properties;
 			sourceTree = "<group>";
 		};
-		27BBC1671833E99900074066 /* MRAID Tests */ = {
-			isa = PBXGroup;
-			children = (
-				27BBC16D1833E99900074066 /* MRAID_Tests.m */,
-				27BBC1681833E99900074066 /* Supporting Files */,
-			);
-			path = "MRAID Tests";
-			sourceTree = "<group>";
-		};
-		27BBC1681833E99900074066 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				27BBC1691833E99900074066 /* MRAID Tests-Info.plist */,
-				27BBC16F1833E99900074066 /* MRAID Tests-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -250,23 +195,6 @@
 			productReference = 27296B8F17F280CE004C268F /* libMRAID.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		27BBC1611833E99900074066 /* MRAID Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 27BBC1741833E99900074066 /* Build configuration list for PBXNativeTarget "MRAID Tests" */;
-			buildPhases = (
-				27BBC15E1833E99900074066 /* Sources */,
-				27BBC15F1833E99900074066 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				27BBC1711833E99900074066 /* PBXTargetDependency */,
-			);
-			name = "MRAID Tests";
-			productName = "MRAID Tests";
-			productReference = 27BBC1621833E99900074066 /* MRAID Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -275,17 +203,13 @@
 			attributes = {
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Nexage;
-				TargetAttributes = {
-					27BBC1611833E99900074066 = {
-						TestTargetID = 27296B8E17F280CE004C268F;
-					};
-				};
 			};
 			buildConfigurationList = 27296B8A17F280CE004C268F /* Build configuration list for PBXProject "MRAID" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 27296B8617F280CE004C268F;
@@ -295,7 +219,6 @@
 			targets = (
 				27296B8E17F280CE004C268F /* MRAID */,
 				E245B1BA17F3584B0056CCB5 /* mraidjshex */,
-				27BBC1611833E99900074066 /* MRAID Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -336,30 +259,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27BBC15E1833E99900074066 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2738BDF019815D9100A968BF /* SKMRAIDResizeProperties.m in Sources */,
-				2738BDF219815D9100A968BF /* SKMRAIDInterstitial.m in Sources */,
-				2738BDF619815D9100A968BF /* SKMRAIDParser.m in Sources */,
-				2738BDF819815D9100A968BF /* SKMRAIDUtil.m in Sources */,
-				2738BDF419815D9100A968BF /* SKMRAIDModalViewController.m in Sources */,
-				2738BDEE19815D9100A968BF /* SKMRAIDOrientationProperties.m in Sources */,
-				2738BDEC19815D9100A968BF /* MRAIDSettings.m in Sources */,
-				2738BDFA19815D9100A968BF /* SKMRAIDView.m in Sources */,
-				27BBC16E1833E99900074066 /* MRAID_Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		27BBC1711833E99900074066 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 27296B8E17F280CE004C268F /* MRAID */;
-			targetProxy = 27BBC1701833E99900074066 /* PBXContainerItemProxy */;
-		};
 		E245B1C017F35AE10056CCB5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E245B1BA17F3584B0056CCB5 /* mraidjshex */;
@@ -475,46 +377,6 @@
 			};
 			name = Release;
 		};
-		27BBC1721833E99900074066 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MRAID Tests/MRAID Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "MRAID Tests/MRAID Tests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.nexage.sourcekit.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		27BBC1731833E99900074066 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MRAID Tests/MRAID Tests-Prefix.pch";
-				INFOPLIST_FILE = "MRAID Tests/MRAID Tests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.nexage.sourcekit.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 		E245B1BC17F3584B0056CCB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -546,15 +408,6 @@
 			buildConfigurations = (
 				27296BB317F280CE004C268F /* Debug */,
 				27296BB417F280CE004C268F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		27BBC1741833E99900074066 /* Build configuration list for PBXNativeTarget "MRAID Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				27BBC1721833E99900074066 /* Debug */,
-				27BBC1731833E99900074066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
