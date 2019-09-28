@@ -126,13 +126,6 @@
 			remoteGlobalIDString = 27296B8E17F280CE004C268F;
 			remoteInfo = MRAID;
 		};
-		27BBC1781833E9ED00074066 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 278E62E61805AB4900A786B4 /* MRAID.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27BBC1621833E99900074066;
-			remoteInfo = "MRAID Tests";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -353,7 +346,6 @@
 			isa = PBXGroup;
 			children = (
 				278E62ED1805AB4900A786B4 /* libMRAID.a */,
-				27BBC1791833E9ED00074066 /* MRAID Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -583,13 +575,6 @@
 			remoteRef = 278E62EC1805AB4900A786B4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		27BBC1791833E9ED00074066 /* MRAID Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "MRAID Tests.xctest";
-			remoteRef = 27BBC1781833E9ED00074066 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -809,7 +794,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MRAIDDemo/MRAIDDemo-Prefix.pch";
 				INFOPLIST_FILE = "MRAIDDemo/MRAIDDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.nexage.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MRAIDDemo;
@@ -827,7 +812,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MRAIDDemo/MRAIDDemo-Prefix.pch";
 				INFOPLIST_FILE = "MRAIDDemo/MRAIDDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.nexage.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MRAIDDemo;

@@ -23,7 +23,7 @@ DESC
   s.homepage     = "https://github.com/iamyogish/ObjCMRAID"
   s.author       = { "Nexage, Inc." => "http://www.nexage.com" }
   s.platform     = :ios, "10.0"
-  s.source       = { :git => "https://github.com/iamyogish/ObjCMRAID.git", :branch => "master", :tag => "1.0.4", :submodules => true}
+  s.source       = { :git => "https://github.com/iamyogish/ObjCMRAID.git", :branch => "master", :tag => "{s.version}", :submodules => true}
   #s.exclude_files = 'demo/**/*.{h,m}', 'src/MRAID Tests/**/*.{h,m}'
 
   s.source_files = 'src/**/*.{h,m}'
