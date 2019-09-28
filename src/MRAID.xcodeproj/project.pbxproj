@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E245B1BA17F3584B0056CCB5 /* mraidjshex */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E245B1BB17F3584B0056CCB5 /* Build configuration list for PBXAggregateTarget "mraidjshex" */;
+			buildPhases = (
+				E245B1BE17F35A830056CCB5 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = mraidjshex;
+			productName = mraidjshex;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		27296B9317F280CE004C268F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27296B9217F280CE004C268F /* Foundation.framework */; };
+		2738BDEB19815D9100A968BF /* MRAIDSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDD719815D9100A968BF /* MRAIDSettings.m */; };
+		2738BDEC19815D9100A968BF /* MRAIDSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDD719815D9100A968BF /* MRAIDSettings.m */; };
+		2738BDED19815D9100A968BF /* SKMRAIDOrientationProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDDA19815D9100A968BF /* SKMRAIDOrientationProperties.m */; };
+		2738BDEE19815D9100A968BF /* SKMRAIDOrientationProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDDA19815D9100A968BF /* SKMRAIDOrientationProperties.m */; };
+		2738BDEF19815D9100A968BF /* SKMRAIDResizeProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDDC19815D9100A968BF /* SKMRAIDResizeProperties.m */; };
+		2738BDF019815D9100A968BF /* SKMRAIDResizeProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDDC19815D9100A968BF /* SKMRAIDResizeProperties.m */; };
+		2738BDF119815D9100A968BF /* SKMRAIDInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDDE19815D9100A968BF /* SKMRAIDInterstitial.m */; };
+		2738BDF219815D9100A968BF /* SKMRAIDInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDDE19815D9100A968BF /* SKMRAIDInterstitial.m */; };
+		2738BDF319815D9100A968BF /* SKMRAIDModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDE019815D9100A968BF /* SKMRAIDModalViewController.m */; };
+		2738BDF419815D9100A968BF /* SKMRAIDModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDE019815D9100A968BF /* SKMRAIDModalViewController.m */; };
+		2738BDF519815D9100A968BF /* SKMRAIDParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDE219815D9100A968BF /* SKMRAIDParser.m */; };
+		2738BDF619815D9100A968BF /* SKMRAIDParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDE219815D9100A968BF /* SKMRAIDParser.m */; };
+		2738BDF719815D9100A968BF /* SKMRAIDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDE519815D9100A968BF /* SKMRAIDUtil.m */; };
+		2738BDF819815D9100A968BF /* SKMRAIDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDE519815D9100A968BF /* SKMRAIDUtil.m */; };
+		2738BDF919815D9100A968BF /* SKMRAIDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDE719815D9100A968BF /* SKMRAIDView.m */; };
+		2738BDFA19815D9100A968BF /* SKMRAIDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738BDE719815D9100A968BF /* SKMRAIDView.m */; };
+		27B9578D18343A400076286F /* libSourceKitCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B9578C18343A400076286F /* libSourceKitCommon.a */; };
+		27BBC1651833E99900074066 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27296B9217F280CE004C268F /* Foundation.framework */; };
+		27BBC1661833E99900074066 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EBFE7417F2837900FCB7DD /* UIKit.framework */; };
+		27BBC16E1833E99900074066 /* MRAID_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BBC16D1833E99900074066 /* MRAID_Tests.m */; };
+		27BBC17B1833EA0500074066 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BBC17A1833EA0500074066 /* XCTest.framework */; };
+		27EBFE7517F2837900FCB7DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EBFE7417F2837900FCB7DD /* UIKit.framework */; };
+		9C3555831F18EE1800484D1E /* UIView+SKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3555821F18EE1800484D1E /* UIView+SKExtension.m */; };
+		9C7D4FBB1D9276F0003FE6E2 /* UIButton+SKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7D4FBA1D9276F0003FE6E2 /* UIButton+SKExtension.m */; };
+		B9CA384A1FA71762002E8061 /* WKWebView+SKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CA38491FA71762002E8061 /* WKWebView+SKExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27BBC1701833E99900074066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27296B8717F280CE004C268F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27296B8E17F280CE004C268F;
+			remoteInfo = MRAID;
+		};
+		E245B1BF17F35AE10056CCB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27296B8717F280CE004C268F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E245B1BA17F3584B0056CCB5;
+			remoteInfo = mraidjshex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27296B8D17F280CE004C268F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Headers;
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		27296B8F17F280CE004C268F /* libMRAID.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRAID.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		27296B9217F280CE004C268F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2738BDD319815D9100A968BF /* CloseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseButton.h; sourceTree = "<group>"; };
+		2738BDD419815D9100A968BF /* mraid.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mraid.js; sourceTree = "<group>"; };
+		2738BDD519815D9100A968BF /* mraidjs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mraidjs.h; sourceTree = "<group>"; };
+		2738BDD619815D9100A968BF /* MRAIDSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRAIDSettings.h; sourceTree = "<group>"; };
+		2738BDD719815D9100A968BF /* MRAIDSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRAIDSettings.m; sourceTree = "<group>"; };
+		2738BDD919815D9100A968BF /* SKMRAIDOrientationProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMRAIDOrientationProperties.h; sourceTree = "<group>"; };
+		2738BDDA19815D9100A968BF /* SKMRAIDOrientationProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMRAIDOrientationProperties.m; sourceTree = "<group>"; };
+		2738BDDB19815D9100A968BF /* SKMRAIDResizeProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMRAIDResizeProperties.h; sourceTree = "<group>"; };
+		2738BDDC19815D9100A968BF /* SKMRAIDResizeProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMRAIDResizeProperties.m; sourceTree = "<group>"; };
+		2738BDDD19815D9100A968BF /* SKMRAIDInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMRAIDInterstitial.h; sourceTree = "<group>"; };
+		2738BDDE19815D9100A968BF /* SKMRAIDInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMRAIDInterstitial.m; sourceTree = "<group>"; };
+		2738BDDF19815D9100A968BF /* SKMRAIDModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMRAIDModalViewController.h; sourceTree = "<group>"; };
+		2738BDE019815D9100A968BF /* SKMRAIDModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMRAIDModalViewController.m; sourceTree = "<group>"; };
+		2738BDE119815D9100A968BF /* SKMRAIDParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMRAIDParser.h; sourceTree = "<group>"; };
+		2738BDE219815D9100A968BF /* SKMRAIDParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMRAIDParser.m; sourceTree = "<group>"; };
+		2738BDE319815D9100A968BF /* SKMRAIDServiceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMRAIDServiceDelegate.h; sourceTree = "<group>"; };
+		2738BDE419815D9100A968BF /* SKMRAIDUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMRAIDUtil.h; sourceTree = "<group>"; };
+		2738BDE519815D9100A968BF /* SKMRAIDUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMRAIDUtil.m; sourceTree = "<group>"; };
+		2738BDE619815D9100A968BF /* SKMRAIDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMRAIDView.h; sourceTree = "<group>"; };
+		2738BDE719815D9100A968BF /* SKMRAIDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMRAIDView.m; sourceTree = "<group>"; };
+		27B9578C18343A400076286F /* libSourceKitCommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSourceKitCommon.a; path = "../../../../../../../Library/Developer/Xcode/DerivedData/SourceKit_MRAID_Demo-chkqdkneesfnscddcsglkymwqnat/Build/Products/Debug-iphoneos/libSourceKitCommon.a"; sourceTree = "<group>"; };
+		27BBC1621833E99900074066 /* MRAID Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MRAID Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BBC1691833E99900074066 /* MRAID Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MRAID Tests-Info.plist"; sourceTree = "<group>"; };
+		27BBC16D1833E99900074066 /* MRAID_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRAID_Tests.m; sourceTree = "<group>"; };
+		27BBC16F1833E99900074066 /* MRAID Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MRAID Tests-Prefix.pch"; sourceTree = "<group>"; };
+		27BBC17A1833EA0500074066 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		27EBFE7417F2837900FCB7DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9C3555811F18EE1800484D1E /* UIView+SKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SKExtension.h"; sourceTree = "<group>"; };
+		9C3555821F18EE1800484D1E /* UIView+SKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SKExtension.m"; sourceTree = "<group>"; };
+		9C7D4FB91D9276F0003FE6E2 /* UIButton+SKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SKExtension.h"; sourceTree = "<group>"; };
+		9C7D4FBA1D9276F0003FE6E2 /* UIButton+SKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SKExtension.m"; sourceTree = "<group>"; };
+		B9CA38481FA71762002E8061 /* WKWebView+SKExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKWebView+SKExtension.h"; sourceTree = "<group>"; };
+		B9CA38491FA71762002E8061 /* WKWebView+SKExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+SKExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27296B8C17F280CE004C268F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27EBFE7517F2837900FCB7DD /* UIKit.framework in Frameworks */,
+				27296B9317F280CE004C268F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BBC15F1833E99900074066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B9578D18343A400076286F /* libSourceKitCommon.a in Frameworks */,
+				27BBC17B1833EA0500074066 /* XCTest.framework in Frameworks */,
+				27BBC1661833E99900074066 /* UIKit.framework in Frameworks */,
+				27BBC1651833E99900074066 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27218E6D194BBDB5002CB908 /* MRAID */ = {
+			isa = PBXGroup;
+			children = (
+				2738BDD319815D9100A968BF /* CloseButton.h */,
+				2738BDD419815D9100A968BF /* mraid.js */,
+				2738BDD519815D9100A968BF /* mraidjs.h */,
+				2738BDD619815D9100A968BF /* MRAIDSettings.h */,
+				2738BDD719815D9100A968BF /* MRAIDSettings.m */,
+				2738BDD819815D9100A968BF /* properties */,
+				2738BDDD19815D9100A968BF /* SKMRAIDInterstitial.h */,
+				2738BDDE19815D9100A968BF /* SKMRAIDInterstitial.m */,
+				2738BDDF19815D9100A968BF /* SKMRAIDModalViewController.h */,
+				2738BDE019815D9100A968BF /* SKMRAIDModalViewController.m */,
+				2738BDE119815D9100A968BF /* SKMRAIDParser.h */,
+				2738BDE219815D9100A968BF /* SKMRAIDParser.m */,
+				2738BDE319815D9100A968BF /* SKMRAIDServiceDelegate.h */,
+				2738BDE419815D9100A968BF /* SKMRAIDUtil.h */,
+				2738BDE519815D9100A968BF /* SKMRAIDUtil.m */,
+				2738BDE619815D9100A968BF /* SKMRAIDView.h */,
+				2738BDE719815D9100A968BF /* SKMRAIDView.m */,
+				9C7D4FB91D9276F0003FE6E2 /* UIButton+SKExtension.h */,
+				9C7D4FBA1D9276F0003FE6E2 /* UIButton+SKExtension.m */,
+				9C3555811F18EE1800484D1E /* UIView+SKExtension.h */,
+				9C3555821F18EE1800484D1E /* UIView+SKExtension.m */,
+				B9CA38481FA71762002E8061 /* WKWebView+SKExtension.h */,
+				B9CA38491FA71762002E8061 /* WKWebView+SKExtension.m */,
+			);
+			path = MRAID;
+			sourceTree = "<group>";
+		};
+		27296B8617F280CE004C268F = {
+			isa = PBXGroup;
+			children = (
+				27218E6D194BBDB5002CB908 /* MRAID */,
+				27BBC1671833E99900074066 /* MRAID Tests */,
+				27296B9117F280CE004C268F /* Frameworks */,
+				27296B9017F280CE004C268F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27296B9017F280CE004C268F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27296B8F17F280CE004C268F /* libMRAID.a */,
+				27BBC1621833E99900074066 /* MRAID Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27296B9117F280CE004C268F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27B9578C18343A400076286F /* libSourceKitCommon.a */,
+				27BBC17A1833EA0500074066 /* XCTest.framework */,
+				27EBFE7417F2837900FCB7DD /* UIKit.framework */,
+				27296B9217F280CE004C268F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2738BDD819815D9100A968BF /* properties */ = {
+			isa = PBXGroup;
+			children = (
+				2738BDD919815D9100A968BF /* SKMRAIDOrientationProperties.h */,
+				2738BDDA19815D9100A968BF /* SKMRAIDOrientationProperties.m */,
+				2738BDDB19815D9100A968BF /* SKMRAIDResizeProperties.h */,
+				2738BDDC19815D9100A968BF /* SKMRAIDResizeProperties.m */,
+			);
+			path = properties;
+			sourceTree = "<group>";
+		};
+		27BBC1671833E99900074066 /* MRAID Tests */ = {
+			isa = PBXGroup;
+			children = (
+				27BBC16D1833E99900074066 /* MRAID_Tests.m */,
+				27BBC1681833E99900074066 /* Supporting Files */,
+			);
+			path = "MRAID Tests";
+			sourceTree = "<group>";
+		};
+		27BBC1681833E99900074066 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27BBC1691833E99900074066 /* MRAID Tests-Info.plist */,
+				27BBC16F1833E99900074066 /* MRAID Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27296B8E17F280CE004C268F /* MRAID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27296BB217F280CE004C268F /* Build configuration list for PBXNativeTarget "MRAID" */;
+			buildPhases = (
+				27296B8B17F280CE004C268F /* Sources */,
+				27296B8C17F280CE004C268F /* Frameworks */,
+				27296B8D17F280CE004C268F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E245B1C017F35AE10056CCB5 /* PBXTargetDependency */,
+			);
+			name = MRAID;
+			productName = "mraid-kit-ios";
+			productReference = 27296B8F17F280CE004C268F /* libMRAID.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		27BBC1611833E99900074066 /* MRAID Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BBC1741833E99900074066 /* Build configuration list for PBXNativeTarget "MRAID Tests" */;
+			buildPhases = (
+				27BBC15E1833E99900074066 /* Sources */,
+				27BBC15F1833E99900074066 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27BBC1711833E99900074066 /* PBXTargetDependency */,
+			);
+			name = "MRAID Tests";
+			productName = "MRAID Tests";
+			productReference = 27BBC1621833E99900074066 /* MRAID Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27296B8717F280CE004C268F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Nexage;
+				TargetAttributes = {
+					27BBC1611833E99900074066 = {
+						TestTargetID = 27296B8E17F280CE004C268F;
+					};
+				};
+			};
+			buildConfigurationList = 27296B8A17F280CE004C268F /* Build configuration list for PBXProject "MRAID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27296B8617F280CE004C268F;
+			productRefGroup = 27296B9017F280CE004C268F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27296B8E17F280CE004C268F /* MRAID */,
+				E245B1BA17F3584B0056CCB5 /* mraidjshex */,
+				27BBC1611833E99900074066 /* MRAID Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E245B1BE17F35A830056CCB5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# create the hex mraidjs header file\ntouch -c ./MRAID/SKMRAIDView.m\nxxd -i ./MRAID/mraid.js ./MRAID/mraidjs.h\nxxd -i ./MRAID/CloseButton.png ./MRAID/CloseButton.h";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27296B8B17F280CE004C268F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2738BDF319815D9100A968BF /* SKMRAIDModalViewController.m in Sources */,
+				9C7D4FBB1D9276F0003FE6E2 /* UIButton+SKExtension.m in Sources */,
+				2738BDF719815D9100A968BF /* SKMRAIDUtil.m in Sources */,
+				2738BDED19815D9100A968BF /* SKMRAIDOrientationProperties.m in Sources */,
+				2738BDF519815D9100A968BF /* SKMRAIDParser.m in Sources */,
+				2738BDEB19815D9100A968BF /* MRAIDSettings.m in Sources */,
+				9C3555831F18EE1800484D1E /* UIView+SKExtension.m in Sources */,
+				2738BDEF19815D9100A968BF /* SKMRAIDResizeProperties.m in Sources */,
+				B9CA384A1FA71762002E8061 /* WKWebView+SKExtension.m in Sources */,
+				2738BDF919815D9100A968BF /* SKMRAIDView.m in Sources */,
+				2738BDF119815D9100A968BF /* SKMRAIDInterstitial.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BBC15E1833E99900074066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2738BDF019815D9100A968BF /* SKMRAIDResizeProperties.m in Sources */,
+				2738BDF219815D9100A968BF /* SKMRAIDInterstitial.m in Sources */,
+				2738BDF619815D9100A968BF /* SKMRAIDParser.m in Sources */,
+				2738BDF819815D9100A968BF /* SKMRAIDUtil.m in Sources */,
+				2738BDF419815D9100A968BF /* SKMRAIDModalViewController.m in Sources */,
+				2738BDEE19815D9100A968BF /* SKMRAIDOrientationProperties.m in Sources */,
+				2738BDEC19815D9100A968BF /* MRAIDSettings.m in Sources */,
+				2738BDFA19815D9100A968BF /* SKMRAIDView.m in Sources */,
+				27BBC16E1833E99900074066 /* MRAID_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27BBC1711833E99900074066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27296B8E17F280CE004C268F /* MRAID */;
+			targetProxy = 27BBC1701833E99900074066 /* PBXContainerItemProxy */;
+		};
+		E245B1C017F35AE10056CCB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E245B1BA17F3584B0056CCB5 /* mraidjshex */;
+			targetProxy = E245B1BF17F35AE10056CCB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27296BB017F280CE004C268F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = MRAID;
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27296BB117F280CE004C268F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = MRAID;
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27296BB317F280CE004C268F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MRAIDDemo.dst;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = MRAID;
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		27296BB417F280CE004C268F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MRAIDDemo.dst;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = MRAID;
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		27BBC1721833E99900074066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRAID Tests/MRAID Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MRAID Tests/MRAID Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.nexage.sourcekit.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		27BBC1731833E99900074066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRAID Tests/MRAID Tests-Prefix.pch";
+				INFOPLIST_FILE = "MRAID Tests/MRAID Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.nexage.sourcekit.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		E245B1BC17F3584B0056CCB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E245B1BD17F3584B0056CCB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27296B8A17F280CE004C268F /* Build configuration list for PBXProject "MRAID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27296BB017F280CE004C268F /* Debug */,
+				27296BB117F280CE004C268F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27296BB217F280CE004C268F /* Build configuration list for PBXNativeTarget "MRAID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27296BB317F280CE004C268F /* Debug */,
+				27296BB417F280CE004C268F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BBC1741833E99900074066 /* Build configuration list for PBXNativeTarget "MRAID Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BBC1721833E99900074066 /* Debug */,
+				27BBC1731833E99900074066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E245B1BB17F3584B0056CCB5 /* Build configuration list for PBXAggregateTarget "mraidjshex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E245B1BC17F3584B0056CCB5 /* Debug */,
+				E245B1BD17F3584B0056CCB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27296B8717F280CE004C268F /* Project object */;
+}
